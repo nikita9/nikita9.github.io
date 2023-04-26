@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universal Encoding/Decoding Tool</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Universal Encoding/Decoding Tool</h1>
+    <textarea id="inputText" placeholder="Enter text to encode or decode"></textarea>
+
+    <div class="buttonContainer">
+        <button id="encodeQP">Encode Quoted-Printable</button>
+        <button id="decodeQP">Decode Quoted-Printable</button>
+        <button id="encodeUTF8">Encode UTF-8</button>
+        <button id="decodeUTF8">Decode UTF-8</button>
+        <button id="decodeCustomQP">Decode Custom Quoted-Printable</button>
+        <button id="encodeCustomQP">Encode Custom Quoted-Printable</button>
+    </div>
+
+    <textarea id="outputText" placeholder="Encoded or decoded text will appear here" readonly></textarea>
+
+    <script src="app.js"></script>
+</body>
+</html>
